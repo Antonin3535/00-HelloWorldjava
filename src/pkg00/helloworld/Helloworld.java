@@ -23,22 +23,30 @@ public class Helloworld {
      
        Scanner sc = new Scanner(System.in); 
         
- System.out.print("x : ");
- int x = sc.nextInt();
+ //System.out.print("x : ");
+ //int x = sc.nextInt();
  
- System.out.print("y : ");
- int y = sc.nextInt();
+ //System.out.print("y : ");
+ //int y = sc.nextInt();
  
- System.out.println("x" +x +" y" +y );
+ //System.out.println("x" +x +" y" +y );
  
- int z=0;
+ //int z=0;
          
-z=x;
-x=y;
-y=z;
+//z=x;
+//x=y;
+//y=z;
 
-System.out.println("x "+x +"y: " +y );
+//System.out.println("x "+x +"y: " +y );
  
+ System.out.print("a : ");
+ float a = sc.nextFloat();
+ 
+ System.out.print("b : " );
+ float b = sc.nextFloat();
+ float resultat = (a+b)*2;
+ 
+ System.out.print("Resultat" + resultat);
  
     }
    
